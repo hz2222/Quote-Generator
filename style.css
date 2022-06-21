@@ -40,7 +40,6 @@ header {
     top:0;
     left:0; 
     right:0;
-    z-index: 1000;
     background: #fff;
     padding: 1.5rem 9%;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
@@ -188,8 +187,7 @@ button {
         background: #f7f7f7;
         border-top: .1rem solid #333;
         border-bottom: .1rem solid #333;
-        transition: .2s linear;
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        
     }
 
     
